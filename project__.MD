@@ -6,10 +6,11 @@
 1. 네이버 영화 사이트: https://movie.naver.com/movie/sdb/rank/rreserve.nhn 에서 ‘예매 랭킹 Top 10’의 영화 예매 순위와 예매율을 출력한다.
 
 2. 영화의 개봉일, 관람객 평점, 평론가 평점은 위의 url의 ‘예매 랭킹 Top 10’에서 각 순위 옆에 기재된 영화명을 클릭하면 연결되는 url 사이트
-(예시: https://movie.naver.com/movie/bi/mi/basic.nhn?code=154255)에서 뽑아와 출력한다.
+(예시: https://movie.naver.com/movie/bi/mi/basic.nhn?code=154255) 에서 뽑아와 출력한다.
 
 
 [데이터 전처리 시나리오]
+
 출력하고자 하는 내용이 포함되어있는 부분을 slicing 하여 변수에 저장한 다음, 역시 slicing 하여 필요한 부분을 가공하여 출력한다. 
 
 <부가설명>
